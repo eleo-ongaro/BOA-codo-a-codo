@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChangoMás</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/pages/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Buscador de Ofertas y Accesibilidad</h1>
+        </div>
+
+        <nav>
+            <ul class="listNone">
+                <li><i class="fa-solid fa-house"></i> Home</li>
+                <li><i class="fa-solid fa-user-pen"></i> Registrarse</li>
+                <li><i class="fa-solid fa-id-badge"></i> Iniciar sesión</li>
+            </ul>
+
+            <select name="ciudad" id="ciudad">
+                <option value="La Plata" selected>La Plata</option>
+                <option value="Berisso">Berisso</option>
+                <option value="Ensenada">Ensenada</option>
+                <option value="Tolosa">Tolosa</option>
+                <option value="City Bell">City Bell</option>
+            </select>
+        </nav>
+    </header>
+    <div class="searchComercio">
+        <h2>Qué estás buscando?</h2>
+        <search>
+            <input type="search" name="buscador-comercio" placeholder="Ingrese su búsqueda aquí" />
+            <button type="submit">Buscar</button>
+        </search>
+    </div>
+    <main>
+        <div class="bannerPng">
+            <img src="/assets/bannerChangoMas.png"
+                alt="banner del comercio chango más donde se lee 3 veces la palabra más, en 3 cuadrados consecutivos con los colores azul, verde y rojo, respectivamente" />
+        </div>
+
+        <div class="logoComercio">
+            <img src="/assets/logoChangoMas.png" alt="logo del comercio, que dice: chango más" />
+        </div>
+        <div>
+            <h3>ChangoMás</h3>
+        </div>
+
+        <span>
+            Categoría
+        </span>
+
+        <div>
+            <ul class="listNone">
+                <li><i class="fa-solid fa-wheelchair"></i></li>
+                <li><i class="fa-solid fa-braille"></i></li>
+                <li><i class="fa-solid fa-hands-asl-interpreting"></i></li>
+                <li><i class="fa-solid fa-paw"></i></li>
+            </ul>
+        </div>
+
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/d2f0778e32.js" crossorigin="anonymous"></script>
+    <script src="/pages/script.js"></script>
+</body>
+
+</html>
