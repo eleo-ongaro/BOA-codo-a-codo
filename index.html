@@ -16,16 +16,12 @@
 
 <body>
     <header>
-        <div class="title">
-            <h1>Buscador de Ofertas y Accesibilidad</h1>
-        </div>
+
 
         <nav>
-            <ul class="listNone">
-                <li><i class="fa-solid fa-house"></i> Home</li>
-                <li><i class="fa-solid fa-user-pen"></i> Registrarse</li>
-                <li><i class="fa-solid fa-id-badge"></i> Iniciar sesión</li>
-            </ul>
+            <div class="title">
+                <h1>Buscador de Ofertas y Accesibilidad</h1>
+            </div>
 
             <select name="ciudad" id="ciudad">
                 <option value="La Plata" selected>La Plata</option>
@@ -34,38 +30,52 @@
                 <option value="Tolosa">Tolosa</option>
                 <option value="City Bell">City Bell</option>
             </select>
+
+            <ul class="listNone user-help">
+                <li class="sizeIconUser"><i class="fa-solid fa-house"></i> Home</li>
+                <li class="sizeIconUser"><i class="fa-solid fa-user-pen"></i> Registrarse</li>
+                <li class="sizeIconUser"><i class="fa-solid fa-id-badge"></i> Iniciar sesión</li>
+            </ul>
+
         </nav>
     </header>
-    <div class="searchComercio">
-        <h2>Qué estás buscando?</h2>
-    </div>
-    <search>
-        <input type="search" name="buscador-comercio" placeholder="Ingrese su búsqueda aquí" />
-        <button type="submit">Buscar</button>
-    </search>
+
+    <section class="comercioSection">
+        <div class="searchComercio">
+            <div class="searchComercio-container">
+                <div class="searchComercio-title">
+                    <h1>Buscar en el Comercio</h1>
+                </div>
+                <div class="searchComercio-input">
+                    <input type="text" placeholder="Busca ofertas en éste Comercio" /> 
+                <button type="submit">Buscar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bannerPng">
+            <img src="/assets/bannerChangoMas.jpg"
+                alt="banner del comercio chango más donde se lee 3 veces la palabra más, en 3 cuadrados consecutivos con los colores azul, verde y rojo, respectivamente" class="bannerPng" />
+        </div>
+    </section>
 
     <main>
-        <div class="bannerPng">
-            <img src="/assets/bannerChangoMas.png"
-                alt="banner del comercio chango más donde se lee 3 veces la palabra más, en 3 cuadrados consecutivos con los colores azul, verde y rojo, respectivamente" />
-        </div>
-
         <div class="logoComercio">
-            <img src="/assets/logoChangoMas.png" alt="logo del comercio, que dice: chango más" />
+            <img src="/assets/logoChangoMas.png" alt="logo del comercio, que dice: chango más" class="logoComercio" />
         </div>
 
-        <div>
+        <div class="comercioName">
             <h2>ChangoMás</h2>
         </div>
 
-        <span> Categoría </span>
+        <span class="category"> Categoría </span>
 
-        <div>
+        <div class="accesibilidad">
             <ul class="listNone">
-                <li><i class="fa-solid fa-wheelchair"></i></li>
-                <li><i class="fa-solid fa-braille"></i></li>
-                <li><i class="fa-solid fa-hands-asl-interpreting"></i></li>
-                <li><i class="fa-solid fa-paw"></i></li>
+                <li><i class="fa-solid fa-wheelchair sizeIcon"></i></li>
+                <li><i class="fa-solid fa-braille sizeIcon"></i></li>
+                <li><i class="fa-solid fa-hands-asl-interpreting sizeIcon"></i></li>
+                <li><i class="fa-solid fa-paw sizeIcon"></i></li>
             </ul>
         </div>
 
