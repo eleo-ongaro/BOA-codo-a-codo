@@ -83,6 +83,13 @@ nav{
     padding-bottom: 2%;
 }
 
+.searchComercio-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .bannerPng{
     width: 100%;
     padding: 0%;
@@ -131,7 +138,7 @@ nav{
 .cardSection{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
     /* border: 6px solid yellow;
     background-color: orange; */
