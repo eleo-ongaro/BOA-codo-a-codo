@@ -158,7 +158,7 @@ nav{
 }
 
 .card-image{
-    width: 100%;
+    width: 55%;
     height: 100%;
 }
 
@@ -173,7 +173,6 @@ nav{
 .card-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding-left: 2%;
     padding-right: 2%;
@@ -240,28 +239,46 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.cards-comercios-cercanos h2{
+
+align-self: center;
+}
 .card-comercios{
     display: flex;
     margin: 1vh;
+    width: 20%;
+    height: 85%;
 }
 
 .category-comercio{
     display: flex;
-    align-self: flex-end;
     font-size: x-small !important;
 }
-
-.comercio-accesibilidad-container {
+.card-content-comercio{
     display: flex;
-    align-self: flex-start;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
-.comercio-accesibilidad-ul{
+/* .card-content-comercio span{
+    
+} */
+
+.comercio-accesibilidad-container , .comercio-accesibilidad-ul {
+    margin: 0% !important;
+}
+/*
+{
     display: flex;
     
 
-}
+} */
 .comercio-accesibilidad-icon{
-    padding: 0.7vh;
-    font-size: small;
+    
+    font-size:unset;
+    padding: 0.5vh;
+    
 }
